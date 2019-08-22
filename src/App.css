@@ -1,0 +1,36 @@
+#root {
+  background-color: aliceblue;
+}
+
+.navbar-dark {
+  background-color: #1C2336;
+}
+
+.nav-link {
+  color: aliceblue;
+}
+
+.card-img {
+  cursor: pointer;
+}
+
+.jumbotron {
+  background-color: #27324E;
+  color:	aliceblue;
+  border-radius: 0px;
+}
+
+.modal-header {
+  background-color: #27324E;
+}
+
+.footer {
+  background-color: #27324E;
+  color: aliceblue;
+  margin-top: 20px;
+  padding: 20px 0px;
+}
+
+.footer p {
+  margin: 0px;
+}
