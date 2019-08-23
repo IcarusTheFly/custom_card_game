@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CardModal from './CardModalComponent';
+import CardModal from './CardModal';
 import { Card, CardImg, Collapse, CardText, CardBody, CardTitle } from 'reactstrap';
 
 export default class Cards extends Component {
