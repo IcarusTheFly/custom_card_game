@@ -6,7 +6,7 @@
   background-color: #1C2336;
 }
 
-.nav-link {
+.navbar-nav .nav-item .nav-link {
   color: aliceblue;
 }
 
