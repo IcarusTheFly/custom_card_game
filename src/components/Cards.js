@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CardModal from './CardModal';
-import { Card, CardImg, Collapse, CardText, CardBody, CardTitle } from 'reactstrap';
+import { Card, CardImg, Collapse, CardText, CardBody, CardTitle, Breadcrumb, BreadcrumbItem } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 export default class Cards extends Component {
     constructor(props) {
@@ -55,7 +56,11 @@ export default class Cards extends Component {
 
         return (
             <div className="container">
-                <h4 className="mt-3 border-info border-bottom">Cards List</h4>
+                <Breadcrumb>
+                    <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
+                    <BreadcrumbItem active>About Us</BreadcrumbItem>
+                </Breadcrumb>
+                <h3 className="mt-3 border-info border-bottom">Cards List</h3>
                 <div className="row">
                     {cardList}
                 </div>

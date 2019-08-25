@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Rules from './components/Rules';
+import About from './components/About';
 import Cards from './components/Cards';
 import './App.css';
 import { CARDS } from './shared/cards';
@@ -26,22 +28,15 @@ export default class App extends Component {
 
   render() {
 
-    const About = (props) => {
-      return (
-        <div>
-          <h4>About us</h4>
-        </div>
-      );
-    }
-
     return (
       <div>
         <BrowserRouter>
           <Header />
           <Switch>
+            <Route exact path="/home" component={Rules} />
             <Route exact path="/cards" component={() => <Cards cards={this.state.cards}/>} />
             <Route path="/about" component={About} />
-            <Redirect to="/cards" />
+            <Redirect to="/home" />
           </Switch>
           <Footer />
         </BrowserRouter>
