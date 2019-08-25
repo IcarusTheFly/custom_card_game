@@ -36,10 +36,13 @@ class Header extends Component {
                         <Collapse isOpen={this.state.showNavbar} navbar>
                             <Nav navbar>
                                 <NavItem>
+                                    <NavLink href="/home">Game Rules</NavLink>
+                                </NavItem>
+                                <NavItem>
                                     <NavLink href="/cards">Cards</NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="/about">About</NavLink>
+                                    <NavLink href="/about">About us</NavLink>
                                 </NavItem>
                                 <NavItem>
                                     <NavLink href="/contact">Contact</NavLink>
@@ -56,7 +59,7 @@ class Header extends Component {
                         <div className="row row-header">
                             <div className="col-12 col-sm-6">
                                 <h1>Custom card game</h1>
-                                <p>This is the card list for your custom card game!!!</p>
+                                <p>This is the card list for your custom card game!</p>
                             </div>
                         </div>
                     </div>
