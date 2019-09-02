@@ -34,3 +34,14 @@
 .footer p {
   margin: 0px;
 }
+
+.customSubmit {
+  border-color: #27324E;
+  background-color: #27324E;
+}
+
+.customSubmit:disabled {
+  background-color: #27324E;
+  border-color: #27324E;
+  opacity: .65;
+}
