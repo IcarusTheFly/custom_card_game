@@ -6,13 +6,13 @@ const CardModal = (props) => {
 
     return (
         <Modal isOpen={props.isOpen} toggle={props.toggle}>
-            <ModalHeader className="bg-warning">{card.name}</ModalHeader>
+            <ModalHeader className="bg-warning">{card.title}</ModalHeader>
             <ModalBody>
             <Media>
                 <Media object width="100%" src={"assets/images/" + card.img} alt={card.name} />
             </Media>
             <Media body className="ml-4 mr-2 mt-2">
-                <Media heading>{props.card.title}</Media>
+                <Media heading>{card.name}</Media>
                 <p>{card.description}</p>
             </Media>
             {/* <Card>
