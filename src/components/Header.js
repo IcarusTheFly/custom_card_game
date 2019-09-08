@@ -36,19 +36,19 @@ class Header extends Component {
                         <Collapse isOpen={this.state.showNavbar} navbar>
                             <Nav navbar>
                                 <NavItem>
-                                    <NavLink href="/home">Game Rules</NavLink>
+                                    <NavLink href="/home">
+                                        <i className="fa fa-list"></i> Game Rules
+                                    </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="/cards">Cards</NavLink>
+                                    <NavLink href="/cards">
+                                        <i className="fa fa-image"></i> Cards
+                                    </NavLink>
                                 </NavItem>
                                 <NavItem>
-                                    <NavLink href="/about">About us</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink href="/contact">Contact</NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink href="https://github.com/reactstrap/reactstrap">Reactstrap</NavLink>
+                                    <NavLink href="/about">
+                                        <i className="fa fa-info"></i> About us
+                                    </NavLink>
                                 </NavItem>
                             </Nav>
                         </Collapse>
@@ -59,7 +59,7 @@ class Header extends Component {
                         <div className="row row-header">
                             <div className="col-12 col-sm-6">
                                 <h1>Custom card game</h1>
-                                <p>This is the card list for your custom card game!</p>
+                                <p>This is the website for your custom card game!</p>
                             </div>
                         </div>
                     </div>
