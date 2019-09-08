@@ -42,7 +42,6 @@ class CardCreateForm extends Component {
     }
 
     handleSubmit(e) {
-        console.log("HITS!", this);
         this.setState({
             isModalOpen: true
         });
@@ -141,7 +140,7 @@ class CardCreateForm extends Component {
                     </Col>
                 </FormGroup>
                 <FormGroup row>
-                    <Col right md={{size: 3, offset: 9}} className="text-right">
+                    <Col md={{size: 3, offset: 9}} className="text-right">
                         <Button type="submit" color="primary" className="customSubmit" disabled={this.disableSubmit(errors)}>
                             Open card view
                         </Button>

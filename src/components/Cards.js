@@ -59,7 +59,7 @@ export default class Cards extends Component {
             <div className="container">
                 <Breadcrumb>
                     <BreadcrumbItem><Link to="/home">Home</Link></BreadcrumbItem>
-                    <BreadcrumbItem active>About Us</BreadcrumbItem>
+                    <BreadcrumbItem active>Cards</BreadcrumbItem>
                 </Breadcrumb>
                 <div className="row row-content">
                     <div className="col-12">
@@ -74,7 +74,7 @@ export default class Cards extends Component {
                         <h3 className="mt-3 border-info border-bottom">Create your own card (without image)</h3>
                     </div>
                 </div>
-                <div className="row row-content">
+                <div className="row">
                     <div className="col-12">
                         <CardCreateForm />
                     </div>
