@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/custom_card_game/static/css/main.52de40cd.chunk.css",
+    "main.js": "/custom_card_game/static/js/main.abf6fac2.chunk.js",
+    "main.js.map": "/custom_card_game/static/js/main.abf6fac2.chunk.js.map",
+    "runtime~main.js": "/custom_card_game/static/js/runtime~main.721ce15f.js",
+    "runtime~main.js.map": "/custom_card_game/static/js/runtime~main.721ce15f.js.map",
+    "static/css/2.a020186b.chunk.css": "/custom_card_game/static/css/2.a020186b.chunk.css",
+    "static/js/2.a55862f8.chunk.js": "/custom_card_game/static/js/2.a55862f8.chunk.js",
+    "static/js/2.a55862f8.chunk.js.map": "/custom_card_game/static/js/2.a55862f8.chunk.js.map",
+    "index.html": "/custom_card_game/index.html",
+    "precache-manifest.dfa3572485c1c5907e1ef812c2739b23.js": "/custom_card_game/precache-manifest.dfa3572485c1c5907e1ef812c2739b23.js",
+    "service-worker.js": "/custom_card_game/service-worker.js",
+    "static/css/2.a020186b.chunk.css.map": "/custom_card_game/static/css/2.a020186b.chunk.css.map",
+    "static/css/main.52de40cd.chunk.css.map": "/custom_card_game/static/css/main.52de40cd.chunk.css.map",
+    "static/media/font-awesome.min.css": "/custom_card_game/static/media/fontawesome-webfont.fee66e71.woff"
+  }
+}
