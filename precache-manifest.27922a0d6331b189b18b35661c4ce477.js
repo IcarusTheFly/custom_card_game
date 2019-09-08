@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26de6e920e3bffd997d42988ff9e664c",
+    "revision": "e4ea998c4e4cd5ed12d7d1c30d262229",
     "url": "/custom_card_game/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/custom_card_game/static/css/2.a020186b.chunk.css"
   },
   {
-    "revision": "593cf81a7a4ee5a881de",
+    "revision": "85495617fe1dd26a783a",
     "url": "/custom_card_game/static/css/main.52de40cd.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/custom_card_game/static/js/2.a55862f8.chunk.js"
   },
   {
-    "revision": "593cf81a7a4ee5a881de",
-    "url": "/custom_card_game/static/js/main.014d3dd0.chunk.js"
+    "revision": "85495617fe1dd26a783a",
+    "url": "/custom_card_game/static/js/main.5bcc99d8.chunk.js"
   },
   {
     "revision": "f477bcc6d339dfc7482e",
