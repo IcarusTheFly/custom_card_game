@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/custom_card_game/static/css/main.52de40cd.chunk.css",
-    "main.js": "/custom_card_game/static/js/main.f72d5286.chunk.js",
-    "main.js.map": "/custom_card_game/static/js/main.f72d5286.chunk.js.map",
+    "main.js": "/custom_card_game/static/js/main.26542740.chunk.js",
+    "main.js.map": "/custom_card_game/static/js/main.26542740.chunk.js.map",
     "runtime~main.js": "/custom_card_game/static/js/runtime~main.721ce15f.js",
     "runtime~main.js.map": "/custom_card_game/static/js/runtime~main.721ce15f.js.map",
     "static/css/2.a020186b.chunk.css": "/custom_card_game/static/css/2.a020186b.chunk.css",
     "static/js/2.0b3cc89c.chunk.js": "/custom_card_game/static/js/2.0b3cc89c.chunk.js",
     "static/js/2.0b3cc89c.chunk.js.map": "/custom_card_game/static/js/2.0b3cc89c.chunk.js.map",
     "index.html": "/custom_card_game/index.html",
-    "precache-manifest.9a5a1a0e8178086f9f6ebb651c71453b.js": "/custom_card_game/precache-manifest.9a5a1a0e8178086f9f6ebb651c71453b.js",
+    "precache-manifest.edfad1118aa80ca454191889ce9774bf.js": "/custom_card_game/precache-manifest.edfad1118aa80ca454191889ce9774bf.js",
     "service-worker.js": "/custom_card_game/service-worker.js",
     "static/css/2.a020186b.chunk.css.map": "/custom_card_game/static/css/2.a020186b.chunk.css.map",
     "static/css/main.52de40cd.chunk.css.map": "/custom_card_game/static/css/main.52de40cd.chunk.css.map",
